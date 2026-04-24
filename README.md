@@ -1,10 +1,9 @@
 API İLE İLGİLİ BİLGİLER
 
 Klasör Yapısı:
-yeni_api/
+api/
 └── api_project/
-├── myenv/ # Sanal ortam (virtual environment)
-└── lidar_camera/ # API kodlarının bulunduğu klasör
+└── camera/ # API kodlarının bulunduğu klasör
 
 Kurulum Adımları:
 1) Klasöre Gir
@@ -18,20 +17,6 @@ Kurulum Adımları:
 4) API'yi Çalıştırmak
 	cd api_project (projenin çalıştırılacağı klasöre gidilir.)
 	python manage.py runserver (API' yi çalıştıran komut. Bu komut sonucunda API linki gelmeli.)
-
-
-
-LIDAR UYGULAMALARI İLE İLGİLİ UYGULAMALAR
-
-// Lidar Kodlarının tamamının çalışması için gerekli kütüphaneler
-pip install matplotlib
-pip install numpy
-pip install ipywidgets
-pip install opencv-python
-pip install requests
-// Jupyter ortamında widget çalıştırmak için gerekir.
-pip install ipympl
-jupyter nbextension enable --py widgetsnbextension
 
 
 KAMERA İLE İLE İLGİLİ UYGULAMALAR 
